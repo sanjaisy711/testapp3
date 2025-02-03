@@ -3,7 +3,7 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 const User = require("./models/User"); // Import the User model
 const app = express();
-const port = 5000;
+const port = 5001;
 const mongoose = require("mongoose");
 
 // Middleware
