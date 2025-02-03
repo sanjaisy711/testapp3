@@ -9,9 +9,9 @@ const mongoose = require("mongoose");
 // Middleware
 app.use(
   cors({
-    origin: "https://main.d3tym2jx46vmte.amplifyapp.com",
-    methods: "GET, POST, PUT, DELETE",
-    allowedHeaders: "Content-Type, Authorization",
+    // origin: "https://main.d3tym2jx46vmte.amplifyapp.com",
+    // methods: "GET, POST, PUT, DELETE",
+    // allowedHeaders: "Content-Type, Authorization",
   })
 );
 app.use(bodyParser.json());
